@@ -381,7 +381,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     
     .profile-picture {
         height: 150px;
@@ -408,6 +408,16 @@ h4 {
     .billboard-title-right {
         position: relative;
         margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
     }
 }
 
